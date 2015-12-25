@@ -1,0 +1,1516 @@
+title:        APIStrat Austin 2015
+url:          http://austin2015.apistrat.com
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     rdiscount
+permalink:    pretty
+pygments:     true
+
+permalink: /:categories/:year/:month/:day/:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 50
+paginate_path: "/blog/page:num"
+
+production_url : http://austin2015.apistrat.com
+
+BASE_PATH : http://austin2015.apistrat.com
+
+categories_path : /categories.html
+tags_path : /tags.html
+
+featured_speakers:
+  - name: "Neha Sampat"
+    company: Built.io
+    company_url: http://built.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/neha-sampat-headshot.jpeg
+    description: CEO of @Builtio | Co-founder of @raweng & @kurbkarma | Advocate for Women in Leadership
+    slug: /speakers/neha-sampat/
+    twitter: https://twitter.com/nehasf
+  - name: Dion Hinchcliffe
+    company: 7Summits
+    company_url: http://www.7summitsinc.com/
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/dion_hinchcliffe-headshot.jpg
+    description: Chief Strategy Officer, business strategist, enterprise architect, keynote speaker, author, & futurist.
+    slug: /speakers/dion-hinchcliffe/
+    twitter: https://twitter.com/dhinchcliffe
+  - name: Lori MacVittie
+    company: F5 Networks
+    company_url: https://f5.com/
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorie-macvittie.jpg
+    description: Lori MacVittie is a subject matter expert on emerging technology responsible for education and evangelism across F5s entire product suite.
+    slug: /speakers/lori-macvittie/
+    twitter: https://twitter.com/lmacvittie
+  - name: Ashley Hathaway
+    company: IBM Watson
+    company_url: http://www.ibm.com/smarterplanet/us/en/ibmwatson/
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/ashley-hathway.jpeg
+    description: As part of a strong team she helps to prioritize, drive requirements, and realize the vision of a successful product for the IBM Watson Developer Cloud in Austin, Texas.
+    slug: ashley-hathaway
+    twitter: https://twitter.com/ash_hathaway
+  - name: Elliot Turner
+    company: IBM Watson
+    company_url: http://alchemyapi.com
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/elliot-turner.png
+    description: Elliot Turner is the director of Alchemy Solutions at IBM Watson, formerly the founder and Chief Executive Officer of AlchemyAPI (acquired into Watson in early 2015). A serial software entrepreneur focused on solving the toughest data problems, Elliot started AlchemyAPI to give organizations access to deep learning capabilities that enable real-time analysis to derive true meaning from data.
+    slug: elliot-turner
+    twitter: https://twitter.com/eturner303
+  - name: Irakli Nadareishvili
+    company: API Academy @ CA Inc.
+    company_url: http://www.apiacademy.co/
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/irakli-nadareishvili.jpeg
+    description: Software architect, educator and entrepreneur. At any given time Irakli can be found designing APIs, hacking on Github, obsessing over distributed systems architecture topics or expressing heartfelt opinions about product design and usability. Irakli is deeply involved in the startup and open-source communities.
+    slug: irakli-nadareishvili
+    twitter: https://twitter.com/inadarei
+  - name: Kin Lane
+    company: API Evangelist
+    company_url: http://apievangelist.com
+    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    description: Kin Lane is a unique blend of information technology, data, programming, product development, business development, sales and marketing--also known as an evangelist.  He spends his days studying the business and  and politics of APIs, sharing insights on his blog, apievangelist.com.
+    slug: kin-lane
+    twitter: kinlane
+  - name: Teresa Tung
+    company: Accenture
+    company_url: https://www.accenture.com
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/teresa-tung.jpg
+    description: Teresa Tung is a senior manager at Accenture Technology Labs responsible for taking the best-of-breed next-generation software architecture solutions from industry, start-ups, and academia, and for evaluating their impact on Accenture's clients through building experimental prototypes and delivering pioneering pilot engagements. Recently Teresa leads R&D on platform architecture for Internet of Things working on real-time streaming analytics, semantic modeling, data virtualization, and APIs for Accenture’s industry platforms like Accenture Connected Products as a Service Platform and Accenture Analytics Insights Platform. Teresa is the author of Accenture’s API Maturity Model.Teresa holds a Ph.D. in Electrical Engineering and Computer Science from the University of California at Berkeley.
+    slug: teresa-tung
+    twitter:
+
+sponsors:
+  - name: 3Scale
+    link: http://www.3scale.net/
+    logo: http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+  - name: Walgreens
+    link: https://developer.walgreens.com/
+    logo: http://kinlane-productions.s3.amazonaws.com/up-image.php/sponsor/Walgreens_Type-Logo_Red_4c.jpg
+  - name: Klout
+    link: https://klout.com/s/developers/home
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/klout-logo-color-dark.png
+  - name: SmartBear
+    link: http://smartbear.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/Color-SmartBear_Logo.png
+  - name: Akana
+    link: https://www.akana.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/akana-logo.png
+  - name: Cloud Elements
+    link: http://cloud-elements.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/cloud-elements-logo.png
+  - name: JustAPIs by AnyPresence
+    link: http://www.anypresence.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/jusapis-logo.png
+  - name: Apiary
+    link: https://apiary.io/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/apiary-logo.png
+  - name: Swagger
+    link: http://swagger.io/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/swagger-logo.png
+  - name: Iron.io
+    link: http://iron.io/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/ironio-logo.png
+  - name: Twitter
+    link: http://twitter.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/Twitter_logo_blue.png
+  - name: Pusher
+    link: http://pusher.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/pusher-logo.png
+  - name: Runscope
+    link: http://runscope.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/runscope-logo.png
+  - name: Microsoft
+    link: https://www.microsoft.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/microsoft-logo.png
+  - name: Dell
+    link: http://dell.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/dell-logo.png
+
+goldsponsors:
+  - name: 3Scale
+    link: http://www.3scale.net/
+    logo: http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+  - name: IBM
+    link: http://ibm.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/ibm-logo.png
+
+silversponsors:
+  - name: Walgreens
+    link: https://developer.walgreens.com/
+    logo: http://kinlane-productions.s3.amazonaws.com/up-image.php/sponsor/Walgreens_Type-Logo_Red_4c.jpg
+  - name: Klout
+    link: https://klout.com/s/developers/home
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/klout-logo-color-dark.png
+  - name: SmartBear
+    link: http://smartbear.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/Color-SmartBear_Logo.png
+  - name: Akana
+    link: https://www.akana.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/akana-logo.png
+  - name: Cloud Elements
+    link: http://cloud-elements.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/cloud-elements-logo.png
+  - name: Microsoft
+    link: https://www.microsoft.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/microsoft-logo.png
+  - name: Runscope
+    link: http://runscope.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/runscope-logo.png
+  - name: Mulesoft
+    link: https://www.mulesoft.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/mulesoft-logo.jpg
+  - name: NGINX
+    link: https://www.nginx.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/nginx-logo.png
+
+bronzesponsors:
+  - name: JustAPIs by AnyPresence
+    link: http://www.anypresence.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/jusapis-logo.png
+  - name: Twitter
+    link: http://twitter.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/Twitter_logo_blue.png
+  - name: Dell
+    link: http://www.dell.com/en-us/work/learn/by-service-type-business-consulting
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/dell-logo.png
+  - name: Iron.io
+    link: http://iron.io/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/ironio-logo.png
+  - name: Pusher
+    link: http://pusher.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/pusher-logo.png
+  - name: Apiary
+    link: https://apiary.io/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/apiary-logo.png
+  - name: Swagger
+    link: http://swagger.io/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/swagger-logo.png
+  - name: Red Hat
+    link: http://www.redhat.com
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/red-hat-logo.png
+  - name: Verizon
+    link: http://www.verizonwireless.com/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/verizon-logo.png
+  - name: RAML
+    link: http://raml.org/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/raml-logo.png
+  - name: Form.io
+    link: http://www.form.io/
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/form-io-logo.png
+  - name: Clarify
+    link: http://Clarify.io
+    logo: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/sponsors/clarify-logo.png
+
+organizers:
+  - name: 3Scale
+    link: http://www.3scale.net/
+    logo: http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/11/3scale-logo-new.png
+  - name: API Evangelist
+    link: http://apievangelist.com/
+    logo: http://apidaysberlin2015.apistrat.com/wp-content/uploads/2014/11/api-evangelist-logo1.png
+
+dayone:
+  - time: 12:00 pm - 5:00 pm
+    title: Registration
+    location: Break Area
+    speakers:
+  - time: 1:30 pm - 3:00 pm
+    title: API Speaker Workshop - Telling your Story
+    abstract: Welcome to API Strategy and Practice!  This session is designed to help new speakers (and experienced speakers as well) feel comfortable and confident during your presentation.  The idea of presenting at conferences is frequently daunting to non-speakers. When I got started giving talks, I was terrified of being called out on areas I wasn’t an expert in. I finally realized that there are different ways to present information.
+    registration: http://austin2015.apistrat.com/workshops/api-speaker-workshop-telling-your-story.html
+    location: Breakout One
+    speakers:
+      - name: Kirsten Hunter
+        company: Akamai
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kirsten-hunter.jpg
+        slug: kirsten-hunter
+  - time: 1:30 pm - 3:00 pm
+    title: A Modern API Lifecycle Workshop
+    abstract: The API industry has significantly evolved since its early days, moving well beyond just deploying and managing APIs. Many API providers are getting sophisticated in how they approach everything from API design, to addressing monitoring, testing, and security. Join Kin Lane, the API Evangelist for a walk through the 30 most common areas top API providers are working on, across the entire lifecycle of their APIs. Bring your laptops, as this workshop will give you a wealth of resources you can explore across the modern API lifecycle.
+    registration: http://austin2015.apistrat.com/workshops/a-modern-api-lifecycle-workshop.html
+    location: Breakout Two
+    speakers:
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+  - time: 3:00 pm - 3:30 pm
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 3:30 pm - 5:00 pm
+    title: Focus on API Workflow Workshop
+    abstract: APIs are core to your business but are often treated more like artifacts of code rather than first class citizens in the development stack.  In this talk, we’ll focus on the API-First process with Swagger and how open-source tools can speed things up and can make a more cohesive process for the entire development team.
+    registration: http://austin2015.apistrat.com/workshops/focus-on-api-workflow-workshop.html
+    location: Breakout One
+    speakers:
+      - name: Tony Tam
+        company: SmartBear
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/tony-tam.jpg
+        slug: tony-tam
+  - time: 3:30 pm - 5:00 pm
+    title: Crash Course – Practical API Management Workshop
+    abstract: Learn hands-on how to open, secure and manage an API. We’ll zip you through steps to deploy a live API and then secure and monitor traffic with an API Gateway implemented using 3scale and Nginx. We’ll share some best practices, tricks and tools you can use to help you debug and monitor your API. With the live API we will then build, test and run a mobile app using Appery. Pre-requisites are 1) Access to laptop with MacOSX or Ubuntu 2) Heroku account.
+    registration: http://austin2015.apistrat.com/workshops/crash-course-practical-api-management-workshop.html
+    location: Breakout Two
+    speakers:
+      - name: Mark Cheshire
+        company: 3Scale <br /> (Business Models)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-cheshire.jpeg
+        slug: mark-cheshire
+      - name: Victor Delgado
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/victor-delgado.png
+        slug: victor-delgado
+      - name: Max Katz
+        company: Appery.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/max-katz.jpg
+        slug: max-katz
+  - time: 3:30 pm - 5:00 pm
+    title: Simple API Supervision
+    abstract: Benchmarking, monitoring, and managing APIs can be a headache. In a microservice world, doubly so. Fret not! This workshop is a relaxed, buddha-like approach look at API supervision. Learn how others manage their APIs. Discover tools of the trade. Identify the metrics most meaningful to your service.
+    registration: http://austin2015.apistrat.com/workshops/simple-api-supervision.html
+    location: Breakout Three
+    speakers:
+      - name: Paul Burt
+        company: Iron.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-burt.jpg
+        slug: paul-burt
+  - time: 5:30 pm - 7:00 pm
+    title: Birds of a Feather
+    location: <strong>Cheer up Charlie’s</strong> (900 Red River St - <a href="http://cheerupcharlies.com">cheerupcharlies.com</a>)
+    speakers:
+  - time: 7:30 pm - 9:00 pm
+    title: Speakers Dinner
+    location: <strong>Stubb's bar-b-q</strong> (801 Red River - <a href="http://stubbsaustin.com">stubbsaustin.com</a>)
+    speakers:
+  - time: 9:30 pm - 12:00 am
+    title: Meetup Bar
+    location: [coming soon]
+    speakers:
+
+daytwo:
+  - time: 8:15 am - 9:00 am
+    title: Registration and Coffee
+    location: Break Area
+    speakers:
+  - time: 9:00 am - 9:15 am
+    title: Opening Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Mark Boyd
+        company: Conference Chair
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+        slug: mark-boyd
+  - time: 9:15 am - 9:40 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Neha Sampat
+        company: Built.io
+        company_url: http://built.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/neha-sampat-headshot.jpeg
+        description: CEO of @Builtio | Co-founder of @raweng & @kurbkarma | Advocate for Women in Leadership
+        slug: neha-sampat
+        twitter: https://twitter.com/nehasf
+  - time: 9:40 am - 10:05 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Rion Dooley
+        company: Texas Advanced Computing Center (TACC)
+        company_url: https://www.tacc.utexas.edu
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/rion-dooley.jpg
+        description:
+        slug: rion-dooley
+        twitter:
+  - time: 10:05 am - 10:30 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Lori MacVittie
+        company: F5 Networks
+        company_url: https://f5.com/
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorie-macvittie.jpg
+        description: Lori MacVittie is a subject matter expert on emerging technology responsible for education and evangelism across F5s entire product suite.
+        slug: lori-macvittie
+        twitter: https://twitter.com/lmacvittie
+  - time: 10:30 am - 11:00 am
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 11:00 am - 12:30 pm
+    title: API Design Impacting The API Lifecycle
+    location: Breakout One
+    speakers:
+      - name: Jason Harmon
+        company: Paypal <br /> (Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jason-harmon.jpg
+        slug: jason-harmon
+        detail: none
+        title:
+        abstract:
+      - name: James Higginbotham
+        company: Launch Any
+        url: http://launchany.com/
+        twitter: launchany
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/james-higginbotham.jpg
+        slug: james-higginbotham
+        detail: james-hgginbotham-public-apis-are-forever-taming-api-complexity.html
+        title: Public APIs Are Forever - Taming API Complexity
+        abstract: Teams often struggle with balancing the complexity of legacy applications, limited time, and limited resources when designing APIs. The result is often the release of less-than-ideal API design that meets the immediate needs of the client but misses opportunities for longer-term value. This talk will explore a technique for API design thinking and how to apply this technique to your design process to create a clear, well-designed, long-lasting API. The goal of this talk is to discuss how to move API design from endpoints to looking at systems design and domain-driven design (a passion of mine and the techniques I use when helping other businesses design their API). It is a discipline that has worked well for many in this industry, including myself, but seems to have been forgotten or set aside in recent years. Applying these principles will result in a cleaner API design, help identify API product boundaries, and may result in identifying new API product opportunities.
+        bio: James is an API consultant with experience in architecting, building, and deploying APIs and cloud native architectures. As an API consultant, he enjoys helping businesses balance great API design and product needs. He also creates and delivers API and cloud native architecture training with the goal of equipping cross-functional teams to integrate their talents toward building first-class APIs for their product or enterprise systems.
+      - name: Everett Toews
+        company: Rackspace
+        url: http://www.rackspace.com/
+        twitter: everett_toews
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/everett-toews.jpg
+        slug: everett-toews
+        detail: everett-toews-paving-the-path-to-better-openstack-apis.html
+        title: Paving the Path to Better OpenStack APIs
+        abstract: OpenStack is a land of abundant resources. It's an open source project that provides infrastructure as a service for public and private clouds. These infrastructure resources are logically divided into separate services (e.g. virtual machines via the compute service, files via the object storage service, etc.) and accessible via RESTful APIs. The paths to OpenStack land should lead developers and operations to these resources effortlessly. But all is not so. The paths will take the unwary astray. They twist and turn. They dead end. They lead you into the jaws of waiting dragons. It all adds up to one very frustrating journey. The abundant resources of OpenStack land are accessible but getting there is far more difficult than it should be. To address these difficulties I've helped found the OpenStack API Working Group. Our mission is to improve the developer experience of API users by converging the OpenStack APIs to a consistent and pragmatic RESTful design. Join me and learn how we create API guidelines and reach consensus in an open source community with thousands of contributors. Together we can pave the path to better OpenStack APIs.
+        bio: none
+      - name: Darrel Miller
+        company: Microsoft
+        url: http://www.microsoft.com
+        twitter: darrel_miller
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/darrel-miller.jpg
+        slug: darrel-miller
+        detail: none
+        title:
+        abstract:
+        bio: none
+      - name: Jennifer Rondeau
+        company: Capital One
+        url: https://www.capitalone.com/
+        twitter: bradamante
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jennifer-rondeau.jpg
+        slug: jennifer-rondeau
+        detail: jennifer-rondeau-api-documentation-bringing-writers-to-the-table.html
+        title: API Documentation - Bringing Writers to the Table
+        abstract: In the past week, I've heard no fewer than five talks about API documentation—three of them at a tech writing conference and two of them at a developer conference. All five talks acknowledged the central role that documentation plays in developing and marketing a good API. More than that, they discussed the two big challenges to good API docs keeping the docs in sync with the code, and creating clear and compelling high-level overviews.    My proposed talk will look at how tech writers, designers, developers, and PMs can work together on API documentation to make sure both of these critical needs are met. The talk will draw primarily on my past experience documenting several different types of API. In all of these, I've been involved early in the project, sometimes as early as the design phase, where I’ve been able to help bring coherence to both the API itself and to the docs. The talk will also incorporate suggestions from talks by Zdeněk Němec, Jamie Hannaford, and Adam Dangoor at Write The Docs EU.
+        bio: none
+  - time: 11:00 am - 12:30 pm
+    title: Internet of Things, Gateways, and Next Generation of APIs
+    location: Breakout Two
+    speakers:
+      - name: Kurt Collins
+        company: Built.io <br />(Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kurt-collins.jpg
+        slug: kurt-collins
+        detail: none
+        title:
+        abstract:
+      - name: Mandy Whaley
+        company: Cisco
+        url: http://www.cisco.com/
+        twitter: mandywhaley
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mandy-whaley.jpg
+        slug: mandy-whaley
+        detail: mandy-whaley-when-its-not-all-in-the-cloud.html
+        title: When it's not all in the cloud - Building a developer community for APIs + hardware
+        abstract: IoT, wearables, network programmability — Many of the newest developer opportunities require hardware and infrastructure. Building a developer community around APIs that are tied to hardware presents some unique challenges. How do you create a fast “time to first hello world” when you need hardware? How do devices and infrastructure affect your events and hackathons? Let’s talk about the challenges and lessons learned in applying DevX best practices to hardware related APIs and how to encourage an API focused product approach for both software and hardware products.
+        bio: Amanda Whaley is the Developer Experience Lead for Cisco DevNet. She spends most of her time thinking about how developers use Cisco APIs, and about how to make their job easier. She also leads a team of developer evangelists who work with Cisco partners and developers in many technology areas including IoT, Collaboration, and Software Defined Networking. Amanda has a background in application development and engineering, and she is interested in all things that help developers build cool stuff - tools, APIs, docs, frameworks.
+      - name: Vivek Gupta
+        company: AnyPresence
+        url: http://www.anypresence.com/
+        twitter: none
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/vivek-gupta.jpeg
+        slug: vivek-gupta
+        detail: vivek-gupta-rapid-api-development-with-micro-gateways.html
+        title: Rapid API Development with Micro Gateways - A Case Study
+        abstract: One thing is for sure rapid API building and deployment is a core competency that all modern developers can benefit from. But currently, there are limited options for developers looking to build APIs quickly they can do it themselves, use an MBaaS solution or an API management platform. But all of these options can take a lot of time to understand and can be challenging for developers to scale and manage APIs quickly. To support the Citi Mobile Challenge, Citibank launched a set of virtual APIs to support the event. These APIs gave developers an opportunity to create solutions that could function with existing Citi technology. Citi needed to mimic their production environment, but in a way that developers could still build meaningful mobile apps, without the immediate security and privacy concerns that are present when working with live systems. AnyPresence CTO, Rakesh Rao can speak to this case study. He can explain how Citi was used to quickly create APIs that mimic production APIs and augment them with sample data and responses using API Gateway tool, JustAPIs. Unlike other gateway tools, sandbox environments are a default function of JustAPIs. The JustAPIs server is deployed on IBM SoftLayer cloud infrastructure, and runs behind IBM’s API Management gateway for scaling and throttling as needed.
+        bio: Vivek Gupta is the VP of Product Management at AnyPresence, a software platform company that reduces the time and cost of building APIs and enterprise mobile apps. Prior to AnyPresence Vivek has held several key positions at BlackBerry (RIM), Alcatel-Lucent and other startups in various roles ranging from product management to operations and R&D. Vivek holds a Master of Science in Electrical Engineering from University of Texas.
+      - name: Reza Naghibi
+        company: Varnish Software
+        url: https://www.varnish-software.com/
+        twitter: none
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/reza-naghibi.jpg
+        slug: reza-naghibi
+        detail: reza-naghibi-is-api-management-the-weak-link-for-the-internet-of-things.html
+        title: Is API Management the weak link for the Internet of Things?
+        abstract: APIs have become the glue that connects the “things” to the Internet. Companies access (or give access to) these things and the data they generate – both of which are growing at an astounding rate. Yet most of the API management tools in use today were developed up to 20 years ago—when  the numbers of API calls were often measured in hours.<br /><br />The well-known rule that a chain can never be stronger than its weakest link certainly applies to complex and layered Internet of Things (IoT) systems. Even at their most basic, they all have sensors, connectivity and applications. Whereas new technologies have found their place in the IoT universe (RFID, IPv6, big data, RESTful APIs), one critical piece – API management – has been left out, and risks turning into the weakest link.<br /><br />This oversight can pose huge risks for businesses operating in the IoT space. Today, organizations continue to live with outdated performance standards of 200 API calls per second, but most IoT businesses and use cases require much higher throughput—especially in scenarios where API call performance is mission critical.<br /><br />As IoT devices and services continue to grow in usage, so will the number of API calls to the devices. Exceeding the API call limit will slow down services and result in a bad user experience. To prevent users from turning to faster alternatives, performance should be planned from the outset.<br /><br />This presentation will offer tips and advice for future-proofing your IoT investment with high-performance API management—beyond the simple (and expensive) solution of adding more hardware. Explore five core infrastructure upgrades to prepare your business for the Internet of Things–and learn how better performance can bring your IoT implementations a competitive advantage!
+        bio: Reza Naghibi has over 10 years experience building large scale enterprise systems. Reza is particularly focused on maximizing system performance, efficiency, response time, and uptime. Reza is currently a senior software engineer at Varnish Software.
+      - name: Jeanine Swatton
+        company: YODLEE Interactive
+        url: http://interactive.yodlee.com/
+        twitter: jswatton
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jeanine-swatton.png
+        slug: jeanine-swatton
+        detail: none
+        title:
+        abstract:
+        bio: Jeanine Swatton is the Director of Developer Evangelism at Yodlee Interactive. Jeanine holds a Master's Degree in Computer Science from Boston University and a Graduate Certificate in Cybersecurity. Jeanine has more than 15 years of engineering experience in the government and surveillance space as well as startup sectors. For the last 5 years, her main focus has been on mobile app development which includes helping companies define a mobile strategy as well as developing native iOS apps. Jeanine taught iOS Development and Ruby on Rails at a few Universities. She is also an technical mentor/advisor for TechStars Barclay's Accelerator as well as at Technovation. Jeanine speaks at several events/conferences on Fintech, entrepreneurship and app development.
+  - time: 11:00 am - 12:30 pm
+    title: Marketing In The API Space
+    location: Breakout Three
+    speakers:
+      - name: Jennifer Lankford
+        company: Crowd Supply, Inc. <br />(Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jennifer-lankford.jpg
+        slug: jennifer-lankford
+        detail: none
+        title:
+        abstract:
+      - name: Thursday Bram
+        company: Urgency Inc.
+        url: http://www.thursdaybram.com/
+        twitter: thursdayb
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/thursday-bram.jpeg
+        slug: thursday-bram
+        detail: thursday-bram-is-your-api-part-of-your-marketing-plan.html
+        title: Is Your API Part of Your Marketing Plan? Is Marketing Part of Your API Plan?
+        abstract: APIs occupy an interesting place in the technical marketing world even when your company makes an API available to outside developers just as a marketing strategy, you have to market that API. If offering an API is part of your business model, marketing your API is even more critical. This talk will cover different marketing approaches for APIs and how they have played out in the real world (including developer evangelism, hackathons, and documentation-based strategies). We'll also go over how APIs can be useful in marketing your company as a whole.
+        bio: Thursday Bram is the co-founder of Urgency, Inc, a technical content marketing consultancy. She's an organizer of PyDXConf and PyLadies PDX. Her work has appeared on CNET, GigaOM, and dozens of other websites.
+      - name: Matt Gordon
+        company: Expected Behavior
+        url: http://www.expectedbehavior.com/
+        twitter: esquivalient
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/matt-gordon-expected-behavior.jpg
+        slug: matt-gordon
+        detail: matt-gordon-practical-measurement-of-api-success.html
+        title: Practical Measurement of API Success
+        abstract: You watched all the best practice videos, read all the blog posts, and looked at every paper before designing your API. You wanted it to be simple, intuitive, consistent, and loved by developers. Now it’s out in the world. Did you accomplish your goal or silently fail? What’s great about your API? Where did you miss the mark? Let’s talk about specific, practical ways that cutting edge monitoring technology let's us measure API quality, interpret the results, and improve remarkably fast.
+        bio: Matt Gordon is CEO of Expected Behavior. He uses the word experiment a lot, enjoys exercise more than is reasonable, and takes any opportunity to be outside.
+      - name: Adam Duvander
+        company: Orchestrate.io
+        url: https://orchestrate.io/
+        twitter: adamd
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/adam-duvander.jpg
+        slug: adam-duvander
+        detail: adam-duvander-content-marketing-for-apis.html
+        title: Content Marketing for APIs
+        abstract: We all know APIs need great documentation, but that’s only one piece of a complete content strategy to support your API. You need sample applications, tutorials, blog posts, and other types of content published on a regular basis. And you likely need it from a developer’s perspective, so you can help them learn, trust your company, and hopefully use your API.<br /><br />In this talk you’ll see.<br /><br /><ul><li>How to build a successful blogging engine, including what topics to cover and who will write them.</li><li>How to decide if whitepapers and eBooks make sense for your audience (it depends whether they’re technical).</li><li>How to approach tutorials and sample apps so you’re teaching developers, not marketing to them.</li><li>How to staff your content team, including options for tiny, small, medium, and large companies.</li></up>If content marketing, especially for technical topics, isn’t a natural competency, it’s easy to focus on other things. Unfortunately, that leaves your API lacking some foundational support. There are simple steps to get started now that will pay dividends in the future. API veteran Adam DuVander shares stories of success from stints at developer-focused companies, as well as while Editor of ProgrammableWeb.
+        bio: A developer communicator and accidental marketer. I write and speak about technology, especially APIs, infrastructure, mapping and location. I have an interest in how technology solves problems, impacts business and connects people. I bring developers together, help them find new technologies, share their creativity and help others join their ranks. Previously I wrote for some of the web's most respected publications, including Wired and Webmonkey. I spent three years as the editor of ProgrammableWeb, the journal of the API economy.
+      - name: Kristen Womack
+        company: LeadPages
+        url: http://www.leadpages.net/
+        twitter: kristen_womack
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kristen-womack.jpg
+        slug: kristen-womack
+        detail: kristen-womack-personas-for-apis-a-product-approach.html
+        title: Personas for APIs - A Product Approach
+        abstract: Personas are a powerful tool for understanding your customer, and often used in marketing, sales or product development. They are equally important for building an external API or breathing new life into a stale API program.<br /><br />In this talk, I’ll demonstrate how powerful personas can be for your API program and show you how to create one, as well as give you tools to measure if you're on the right track.<br /><br />This talk is for you if you want help navigating your organizational challenges with new communication tools. Depending on what environmental context you are in, your API program may live in Engineering, Marketing, or Business Development. It's confusing because it's actually a product that serves all three. Most organizations don't understand that. Using personas can help you guide your organization to understand the value of an API, with proper funding, a dedicated team and real results. Your API program isn’t just a spec, there are real users to think about.
+        bio: Kristen Womack is Director of Product at LeadPages. Previously, she was the head of the Developer Program and open APIs at Best Buy. Kristen is a leader in the Minneapolis tech, startup and advertising communities, co-leading the Twin Cities Geekettes, co-founder of HackTheGap.MN, and sponsorship chair on the board of Mpls MadWomen. She is a lethal combination of people leader, product nerd and technical “get it” factor.
+      - name: Andrew Noonan
+        company: Uber
+        url: https://www.uber.com/
+        twitter: noonisms
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/andrew-noonan.png
+        slug: andrew-noonan
+        detail: none
+        title: none
+        abstract: none
+        bio: Andrew Noonan is a Developer Advocate and Partner Engineer on the Uber Developer Platform. As part of the recently formed developer relations team he is helping to shape how developers will tap into Uber to build moving experiences. Prior to joining the team at Uber Andrew spent time at Asana, Twitter, and Gnip in similar capacities.
+  - time: 12:30 pm - 1:30 pm
+    title: Lunch
+    location: Break Area
+    speakers:
+  - time: 1:30 pm - 3:00 pm
+    title: Talking API Definitions
+    location: Breakout One
+    speakers:
+      - name: Emmanuel Paraskakis
+        company: Apiary.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/emmanuel-araskakis.jpg
+        slug: emmanuel-paraskakis
+        detail: none
+        title:
+        abstract:
+      - name: Jakub Nesetril
+        company: Apiary.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jakub-nesetril.jpg
+        slug: jakub-nesetril
+        detail: none
+        title:
+        abstract:
+      - name: Anya Stettler
+        company: Avalara
+        url: http://www.avalara.com/
+        twitter: anyarms
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/anya-stettler.jpg
+        slug: anya-stettler
+        detail: anya-stettler-api-description-to-developer-portal.html
+        title: API Description to Developer Portal - Tools and Techniques
+        abstract: API Descriptions can be powerful design and implementation tools. In this session, we look at approaches to using API descriptions to create excellent API documentation, what kind of challenges you might encounter (technical as well as political), and some  strategies to solve them. We'll talk about tools to translate formats, as well as how to generate the best content with the least maintenance.
+        bio: Anya Stettler works for Avalara (www.avalara.com), documenting and supporting their diverse sales tax calculation and compliance APIs. Over the past four years, she has driven a colossal documentation shift from hard-copy developer documentation to an ever-improving self-service developer site.
+      - name: Neil Mansilla
+        company: Runscope
+        url: http://www.runscope.com
+        twitter: mansillaDEV
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/neil-mansilla.png
+        slug: neil-mansilla
+        detail: neil-mansilla-the-journey-of-effective-api-evangelism.html
+        title: The Journey of Effective API Evangelism
+        abstract: Getting developers to discover and use your API is an oversimplification of the challenge. The journey of API evangelism begins before a single line of code is written, and long before the first route and method is defined. In this career, Neil Mansilla has worked with dozens of companies around the world, helping them throughout the stages of API design, development, documentation and deployment. In this talk, Neil will discuss the most important factors for effectively evangelizing your API to the diverse set of communities - internal developers, existing partner developers and to new prospective developers.
+        bio: Neil heads up developer relations at Runscope, an API monitoring, testing and debugging company. Formerly, Neil was with Mashery, an API management company, where he focused on developers tools and experience. He is the co-creator of I/O Docs, an open-source interactive API documentation engine.
+      - name: Mike Stowe
+        company: Mulesoft
+        url: https://www.mulesoft.com/
+        twitter: mikegstowe
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mike-stowe.jpg
+        slug: mike-stowe
+        detail: none
+        title: Going Further with API Specifications
+        abstract: With Swagger recently reaching version 2.0, and RAML 1.0 just around the corner - the idea of what an API spec is has evolved, along with their capabilities.  In this session we're going to look at what's new with Swagger 2 and RAML 1, and more importantly how they change the dynamic of designing, prototyping, documenting, sharing, generating, and even testing APIs.
+        bio: Author of Undisturbed REST, Michael Stowe has spoken at top API conferences around the country including API Days, API Strat, and API World. An active advocate for creating better APIs more efficiently, his work has also been featured on ProgrammableWeb, DZone, and InfoQ. You can view his past talks and slides at www.mikestowe.com/slides and follow him on Twitter @mikegstowe.
+      - name: Gareth Jones
+        company: Microsoft
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/gareth-jones.jpg
+        slug: gareth-jones
+        detail: none
+        title:
+        abstract:
+        bio: Seasoned software development leader with a strong architectural bias. Passionate about the developer experience. Creator of T4 code generation. Currently working as an API Architect for the OneNote API at Microsoft.
+      - name: Tony Tam
+        company: SmartBear
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/tony-tam.jpg
+        slug: tony-tam
+  - time: 1:30 pm - 3:00 pm
+    title: API Testing And Monitoring
+    location: Breakout Two
+    speakers:
+      - name: Bonnie Mattson
+        company: Context.io
+        url: https://context.io/
+        twitter: BonMatts
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/bonnie-mattson.png
+        slug: bonnie-mattson
+        detail: bonnie-mattson-break-your-api.html
+        title: Break your API
+        abstract: While a few tools exist to test API endpoints, many rely on the traditional paradigm of a QA engineer laboriously setting up test cases according to a test plan, and do not allow for the setting of complex state. One solution I have used it to adapt unit testing framework to build the meanest, angriest, most-likely-to-break-your-api client you can imagine. In this talk, I will discuss the merits of a programatic approach to api integration teasing, as well as compare several testing frameworks I have personally used, including RestEasy (Junit, Java), Frisby.js (Jasmine, Javascript), and Rspec(Ruby).
+        bio: After programming as a hobby and academically for nearly a decade, Bonnie decided to switch her career focus from computational chemistry to software engineering in 2013. She now spends most of her time building microservices at Context.io or training as an aerialist at Sky Candy Austin. Bonnie is deeply passionate about API design theory, diversity, mentoring new developers, combating biases, building maintainable codebases, and preventing groupthink.
+      - name: David O'Neill
+        company: APImetrics
+        url: http://apimetrics.io/
+        twitter: daveon
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/dave-oneill.jpg
+        slug: david-oneill
+        detail: none
+        title:
+        abstract:
+        bio:
+      - name: Paul Bruce
+        company: SmartBear Software
+        url: http://smartbear.com/
+        twitter: paulsbruce
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-bruce.jpg
+        slug: paul-bruce
+        detail: paul-bruce-test-and-other-4-letter-words-in-devops.html
+        title: API Strategy - The Next Generation
+        abstract: APIs. You build them, test them, ship them, and monitor them. Big whoop. You even have an “API strategy”, but do you know what your real long-term strategy is? Who will be maintaining these systems long-term, years into the future. If you answer “who cares?” then this session is not for you.<br /><br />This session will focus on building teams, people, and minds that can shape our future API strategy such that testing and monitoring becomes less about finding bugs and more about shipping what people actually want in the first place. Disclaimer, there will be no product demos or complicated charts in this talk. We will have a booth for that sort of thing when you’re not at an awesome conference.
+        bio: Paul Bruce is a professional nerd. A programmer at 13, of course he loves to code, but really enjoys real conversations with real people about stuff that really matters. Paul currently serves as an API Product Manager at SmartBear, focusing on technical relations and communication. You can read more at <a href="http://paulsbruce.io/blog" target="_blank">paulsbruce.io/blog</a>.
+      - name: Marc MacLeod
+        company: StopLight
+        url: http://stoplight.io
+        twitter: marbemac
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/marc-macleod.jpg
+        slug: marc-macleod
+        detail: none
+        title:
+        abstract:
+        bio:
+  - time: 1:30 pm - 3:00 pm
+    title: Internal Innovation With APIs
+    location: Breakout Three
+    speakers:
+      - name: Lorinda Brandon
+        company: Capital One
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+        slug: lorinda-brandon
+        detail: none
+        title:
+        abstract:
+      - name: Loren Paulsen
+        company: Maps CU
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/loren-paulsen.jpg
+        slug: loren-paulsen
+        detail: none
+        title:
+        abstract:
+      - name: Mike Amundsen
+        company: API Academy @ CA Inc. <br /> (Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mike-amundsen.jpg
+        slug: mike-amundsen
+        detail: none
+        title:
+        abstract:
+      - name: Laura (Olson) Heritage
+        company: Akana
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/laura-heritage.jpg
+        slug: laura-heritage
+        detail: none
+        title:
+        abstract:
+  - time: 3:00 pm - 3:05 pm
+    title: Switchover Time
+    location: Break Area
+    speakers:
+  - time: 3:05 pm - 4:35 pm
+    title: Hypermedia APIs
+    location: Breakout One
+    speakers:
+      - name: Mike Amundsen
+        company: API Academy @ CA Inc. <br /> (Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mike-amundsen.jpg
+        slug: mike-amundsen
+        detail: none
+        title:
+        abstract:
+      - name: Shelby Switzer
+        company: Notion
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shelby-switzer.jpeg
+        slug: shelby-switzer
+        detail: none
+        title:
+        abstract:
+      - name: Luke Stokes
+        company: FoxyCart
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/luke-stokes.jpg
+        slug: luke-stokes
+        detail: none
+        title:
+        abstract:
+      - name: Mike Stowe
+        company: Mulesoft
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mike-stowe.jpg
+        slug: mike-stowe
+        detail: none
+        title:
+        abstract:
+  - time: 3:05 pm - 4:35 pm
+    title: API Giants
+    location: Breakout Two
+    speakers:
+      - name: Chris Stevens
+        company: Traxo <br /> (Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/chris-stevens.jpg
+        slug: chris-stevens
+        detail: none
+        title:
+        abstract:
+      - name: Ryan Choi
+        company: Twitter
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/ryan-choi.png
+        slug: ryan-choi
+        detail: none
+        title:
+        abstract:
+      - name: Tony Blank
+        company: SendGrid
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/tony-blank.png
+        slug: tony-blank
+        detail: none
+        title:
+        abstract:
+      - name: John Burry
+        company: Amazon
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-burry.png
+        slug: john-burry
+        detail: none
+        title:
+        abstract:
+      - name: David Zack
+        company: Oxford University Press
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/david-zack.jpg
+        slug: david-zack
+        detail: none
+        title:
+        abstract:
+  - time: 3:05 pm - 4:35 pm
+    title: The Developer Experience
+    location: Breakout Three
+    speakers:
+      - name: Kirsten Hunter
+        company: Akamai
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kirsten-hunter.jpg
+        slug: kirsten-hunter
+        detail: none
+        title:
+        abstract:
+      - name: Taylor Barnett
+        company: Keen.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/taylor-barnett.jpg
+        slug: taylor-barnet
+        detail: none
+        title:
+        abstract:
+      - name: Kelly Hitchcock
+        company: Writer
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kelly-hitchcock.jpg
+        slug: kelly-hitchcock
+        detail: none
+        title:
+        abstract:
+      - name: Gregory Koberger
+        company: Readme.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/gregory-koburger.jpg
+        slug: gregory-koberger
+        detail: none
+        title:
+        abstract:
+      - name: Carlo Longino
+        company: WIP
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/carlo-longino.jpg
+        slug: carlo-longino
+        detail: none
+        title:
+        abstract:
+  - time: 4:35 pm - 5:00 pm
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 5:00 pm - 5:25 pm
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Ashley Hathaway
+        company: IBM Watson
+        company_url: http://www.ibm.com/smarterplanet/us/en/ibmwatson/
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/ashley-hathway.jpeg
+        description: As part of a strong team she helps to prioritize, drive requirements, and realize the vision of a successful product for the IBM Watson Developer Cloud in Austin, Texas.
+        slug: ashley-hathaway
+        twitter: https://twitter.com/ash_hathaway
+      - name: Elliot Turner
+        company: IBM Watson
+        company_url: http://alchemyapi.com
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/elliot-turner.png
+        description: Elliot Turner is the director of Alchemy Solutions at IBM Watson, formerly the founder and Chief Executive Officer of AlchemyAPI (acquired into Watson in early 2015). A serial software entrepreneur focused on solving the toughest data problems, Elliot started AlchemyAPI to give organizations access to deep learning capabilities that enable real-time analysis to derive true meaning from data.
+        slug: elliot-turner
+        twitter: https://twitter.com/eturner303
+  - time: 5:25 pm - 5:50 pm
+    title: Traffic and Weather
+    location: Main Stage
+    speakers:
+      - name: John Sheehan
+        company: Runscope
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-sheehan.jpeg
+        slug: john-sheehan
+      - name: Steve Marx
+        company: Dropbox
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-marx.jpg
+        slug: steve-marx
+  - time: 5:50 pm - 6:20 pm
+    title: Diversity Panel
+    location: Main Stage
+    speakers:
+    - name: Lorinda Brandon
+      company: Capital One
+      image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+      slug: lorinda-brandon
+    - name: Leah Bannon
+      company: Tech Lady Hackathons
+      image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/leah-bannon-18f.jpg
+      slug: leah-bannon
+    - name: Mark Boyd
+      company: Conference Chair
+      image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+      slug: mark-boyd
+    - name: Audrey Watters
+      company: Hack Education
+      image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/audrey-watters.jpg
+      slug: audrey-watters
+  - time: 6:20 pm - 6:30 pm
+    title: Closing Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Mark Boyd
+        company: Conference Chair
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+        slug: mark-boyd
+  - time: 6:45 pm - 7:45 pm
+    title: Drinks Reception
+    location: Break Area
+    speakers:
+  - time: 9:30 pm - 12:00 am
+    title: Meetup Bar
+    location: Valhalla (710 Red River St - <a href="https://www.facebook.com/valhallatavern">facebook.com/valhallatavern)
+    speakers:
+
+daythree:
+  - time: 8:15 am - 9:00 am
+    title: Registration and Coffee
+    location: Break Area
+    speakers:
+  - time: 9:00 am - 9:05 am
+    title: Opening Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Mark Boyd
+        company: Conference Chair
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+        slug: mark-boyd
+  - time: 9:05 am - 9:30 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Irakli Nadareishvili
+        company: API Academy @ CA Inc.
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/irakli-nadareishvili.jpeg
+        slug: irakli-nadareishvili
+  - time: 9:30 am - 9:55 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Teresa Tung
+        company: Accenture
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/teresa-tung.jpg
+        description: Teresa Tung is a senior manager at Accenture Technology Labs responsible for taking the best-of-breed next-generation software architecture solutions from industry, start-ups, and academia, and for evaluating their impact on Accenture's clients through building experimental prototypes and delivering pioneering pilot engagements. Recently Teresa leads R&D on platform architecture for Internet of Things working on real-time streaming analytics, semantic modeling, data virtualization, and APIs for Accenture’s industry platforms like Accenture Connected Products as a Service Platform and Accenture Analytics Insights Platform. Teresa is the author of Accenture’s API Maturity Model.Teresa holds a Ph.D. in Electrical Engineering and Computer Science from the University of California at Berkeley.
+        slug: /speakers/teresa-tung/
+  - time: 9:55 am - 10:20 am
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Dion Hinchcliffe
+        company: 7Summits
+        company_url: http://www.7summitsinc.com/
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/dion_hinchcliffe-headshot.jpg
+        description: Chief Strategy Officer, business strategist, enterprise architect, keynote speaker, author, & futurist.
+        slug: /speakers/dion-hinchcliffe/
+        twitter: https://twitter.com/dhinchcliffe
+  - time: 10:20 am - 10:50 am
+    title: API Consumption Panel
+    location: Main Stage
+    speakers:
+      - name: Mark Geene
+        company: Cloud Elements
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-geene.jpg
+        slug: mark-geene
+      - name: Paul Katsen
+        company: Blockspring
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-katsen-blockspring.jpg
+        slug: mark-geene
+      - name: Todd Sundsted
+        company: SumAll
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/todd-sundsted.jpg
+        slug: todd-sundsted
+      - name: Noam Schwartz
+        company: SimilarWeb
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/noam-schwartz.jpg
+        slug: noam-schwartz
+      - name: Kirsten Hunter
+        company: Akamai Technologies
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kirsten-hunter.jpg
+        slug: kirsten-hunter
+      - name: Taylor Barnett
+        company: Keen.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/taylor-barnett.jpg
+        slug: taylor-barnet
+  - time: 10:50 am - 11:15 am
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 11:15 am - 12:45 pm
+    title: Microservices
+    location: Breakout One
+    speakers:
+      - name: Joyce Stack
+        company: Mendeley <br />(Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/joyce-stack.jpg
+        slug: joyce-stack
+      - name: Sandeep Dinesh
+        company: Google
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/sandeep-dinesh.jpg
+        slug: sandeep-dinesh
+      - name: Orlando Kalossakas
+        company: Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/orlando-kalossakas.jpg
+        slug: orlando-kalossakas
+      - name: Rick Copeland
+        company: Synapp.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/rick-copeland.png
+        slug: rick-copeland
+      - name: Michael Coté
+        company: Pivotal Software
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/michael-cote.jpg
+        slug: michael-cote
+  - time: 11:15 am - 12:45 pm
+    title: APIs in the Enterprise
+    location: Breakout Two
+    speakers:
+      - name: Shion Deysarkar
+        company: Datafiniti <br />(Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shion-deysarkar.png
+        slug: shion-deysarkar
+      - name: Steven Fonseca
+        company: Intuit
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-fonseca.jpg
+        slug: steven-fonseca
+      - name: Drew Schweinfurth
+        company: Walgreens
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/drew-schweinfurth.jpg
+        slug: drew-schweinfurth
+      - name: Victor Olex
+        company: SlashDB
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/victor-olex.png
+        slug: victor-olex
+      - name: Dave Goldberg
+        company: Capital One
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/dave-goldberg.png
+        slug: dave-goldberg
+  - time: 11:15 am - 12:45 pm
+    title: API Discovery, Hubs, and IDEs
+    location: Breakout Three
+    speakers:
+      - name: Natalie Kerns
+        company: Cloud Elements<br />(Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/natalie-kerns.jpg
+        slug: natalie-kerns
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Nicolas Grenié
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/nicolas-grenie.jpg
+        slug: nicolas-grenie
+      - name: Jim Laredo
+        company: IBM
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jim-laredo.jpg
+        slug: jim-laredo
+      - name: Jérôme Louvel
+        company: Restlet
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jerome-louvel.jpg
+        slug: jerome-louvel
+  - time: 12:45 pm - 2:00 pm
+    title: Lunch
+    location: Break Area
+    speakers:
+  - time: 2:00 pm - 3:30 pm
+    title: A Post HTTP World
+    location: Breakout One
+    speakers:
+      - name: Phil Leggetter
+        company: Pusher<br />(Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/phil-leggetter.jpg
+        slug: phil-leggetter
+      - name: Paul O'Fallon
+        company: Cox Automotive
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-ofallon.jpg
+        slug: steve-wilmott
+      - name: Justin Karneges
+        company: Fanout.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/justin-karneges.jpeg
+        slug: justin-karneges
+      - name: John Sheehan
+        company: runscope
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-sheehan.jpeg
+        slug: john-sheehan
+      - name: Ivan Dwyer
+        company: Iron.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/ivan-dwyer.jpg
+        slug: ivan-dwyer
+  - time: 2:00 pm - 3:30 pm
+    title: API Business Models
+    location: Breakout Two
+    speakers:
+      - name: John Musser
+        company: API Science<br />(Session Chair)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-musser.jpg
+        slug: john-musser
+      - name: Manfred Bortenschlager
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/manfred-bortenschlager.jpg
+        slug: manfred-bortenschlager
+      - name: Tyler Singletary
+        company: Klout
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/tyler-singletary.jpg
+        slug: tyler-singletary
+      - name: Paul Murphy
+        company: Clarify
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-murphy.jpg
+        slug: paul-murphy
+      - name: Gary Wetzel
+        company: ​Form.io
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/gary-wetzel.jpg
+        slug: gary-wetzel
+  - time: 2:00 pm - 3:30 pm
+    title: API Clinic - Bring Your API Questions!
+    location: Breakout Three
+    speakers:
+      - name: Mark Cheshire
+        company: 3Scale <br /> (Business Models)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-cheshire.jpeg
+        slug: mark-cheshire
+      - name: Kin Lane
+        company: API Evangelist<br />(Business Models)
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Jason Harmon
+        company: Paypal <br /> (API Design / Definitions)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jason-harmon.jpg
+        slug: jason-harmon
+      - name: Darrel Miller
+        company: Microsoft <br /> (API Design / Definitions)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/darrel-miller.jpg
+        slug: darrel-miller
+      - name: Kirsten Hunter
+        company: Akamai Technologies <br /> (Marking / Dev Relations)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kirsten-hunter.jpg
+        slug: kirsten-hunter
+      - name: Nicolas Grenié
+        company: 3Scale <br /> (Marking / Dev Relations)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/nicolas-grenie.jpg
+        slug: nicolas-grenie
+      - name: Mike Amundsen
+        company: API Academy @ CA Inc. <br /> (Hypermedia)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mike-amundsen.jpg
+        slug: mike-amundsen
+      - name: Shelby Switzer
+        company: Notion <br /> (Hypermedia)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shelby-switzer.jpeg
+        slug: shelby-switzer
+      - name: Orlando Kalossakas
+        company: Evangelist <br /> (Deployment)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/orlando-kalossakas.jpg
+        slug: orlando-kalossakas
+      - name: Travis Tidwell
+        company: Form.io <br /> (Deployment)
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/travis-tidwell.jpg
+        slug: travis-tidwell
+  - time: 3:30 pm - 3:45 pm
+    title: Coffee Break
+    location: Break Area
+    speakers:
+  - time: 3:45 pm - 4:10 pm
+    title: Keynote
+    location: Main Stage
+    speakers:
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+  - time: 4:10 pm - 4:40 pm
+    title: Fireside Chat
+    location: Main Stage
+    speakers:
+      - name: Leah Bannon
+        company: Tech Lady Hackathons
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/leah-bannon-18f.jpg
+        slug: leah-bannon
+      - name: Robert Read
+        company: Public Invention For All Humanity
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/robert-read.png
+        slug: robert-read
+  - time: 4:40 pm - 5:10 pm
+    title: Panel
+    location: Main Stage
+    speakers:
+      - name: Mark Boyd
+        company: Conference Chair
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+        slug: mark-boyd
+      - name: John Musser
+        company: API Science
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-musser.jpg
+        slug: john-musser
+      - name: Gareth Jones
+        company: Microsoft
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/gareth-jones.jpg
+        slug: gareth-jones
+      - name: Shelby Switzer
+        company: Notion
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shelby-switzer.jpeg
+        slug: shelby-switzer
+      - name: Thursday Bram
+        company: Urgency Inc.
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/thursday-bram.jpeg
+        slug: thursday-bram
+  - time: 5:10 pm - 5:20 pm
+    title: Closing Remarks
+    location: Main Stage
+    speakers:
+      - name: Steve Willmott
+        company: 3Scale
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+        slug: steve-wilmott
+      - name: Kin Lane
+        company: API Evangelist
+        image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+        slug: kin-lane
+      - name: Mark Boyd
+        company: Conference Chair
+        image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+        slug: mark-boyd
+
+allspeakers:
+  - name: Neha Sampat
+    company: Built.io
+    company_url: http://built.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/neha-sampat-headshot.jpeg
+    description: CEO of @Builtio | Co-founder of @raweng & @kurbkarma | Advocate for Women in Leadership
+    slug: neha-sampat
+    twitter: https://twitter.com/nehasf
+  - name: Irakli Nadareishvili
+    company: API Academy @ CA Inc.
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/irakli-nadareishvili.jpeg
+    slug: irakli-nadareishvili
+  - name: James Higginbotham
+    company: Launch Any
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/james-higginbotham.jpg
+    slug: james-higginbotham
+  - name: Teresa Tung
+    company: Accenture
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/teresa-tung.jpg
+    slug: /speakers/teresa-tung/
+  - name: Everett Toews
+    company: Rackspace
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/everett-toews.jpg
+    slug: everett-toews
+  - name: Mandy Whaley
+    company: Cisco
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mandy-whaley.jpg
+    slug: mandy-whaley
+  - name: Thursday Bram
+    company: Urgency Inc.
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/thursday-bram.jpeg
+    slug: thursday-bram
+  - name: Matt Gordon
+    company: Expected Behavior
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/matt-gordon-expected-behavior.jpg
+    slug: matt-gordon
+  - name: Adam Duvander
+    company: Orchestrate.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/adam-duvander.jpg
+    slug: adam-duvander
+  - name: Kristen Womack
+    company: LeadPages
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kristen-womack.jpg
+    slug: kristen-womack
+  - name: Emmanuel Paraskakis
+    company: Apiary.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/emmanuel-araskakis.jpg
+    slug: emmanuel-paraskakis
+  - name: Jakub Nesetril
+    company: Apiary.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jakub-nesetril.jpg
+    slug: jakub-nesetril
+  - name: Anya Stettler
+    company: Avalara
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/anya-stettler.jpg
+    slug: anya-stettler
+  - name: Neil Mansilla
+    company: Runscope
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/neil-mansilla.png
+    slug: neil-mansilla
+  - name: Mike Stowe
+    company: Mulesoft
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mike-stowe.jpg
+    slug: mike-stowe
+  - name: Gareth Jones
+    company: Microsoft
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/gareth-jones.jpg
+    slug: gareth-jones
+  - name: Alan Sill, PHD
+    company: Texas Tech University
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/alan-sill.jpg
+    slug: alan-sill
+  - name: Bonnie Mattson
+    company: Context.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/bonnie-mattson.png
+    slug: bonnie-mattson
+  - name: Lorinda Brandon
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorinda-brandon.jpg
+    slug: lorinda-brandon
+  - name: Loren Paulsen
+    company: Maps CU
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/loren-paulsen.jpg
+    slug: loren-paulsen
+  - name: Bryce Barrand
+    company: Marriott
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/bryce-barrand.jpg
+    slug: bryce-barrand
+  - name: Shelby Switzer
+    company: Notion
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shelby-switzer.jpeg
+    slug: shelby-switzer
+  - name: Luke Stokes
+    company: FoxyCart
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/luke-stokes.jpg
+    slug: luke-stokes
+  - name: Kirsten Hunter
+    company: Akamai Technologies
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kirsten-hunter.jpg
+    slug: kirsten-hunter
+  - name: Taylor Barnett
+    company: Keen.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/taylor-barnett.jpg
+    slug: taylor-barnet
+  - name: Kelly Hitchcock
+    company: Writer
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/kelly-hitchcock.jpg
+    slug: kelly-hitchcock
+  - name: Gregory Koberger
+    company: Readme.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/gregory-koburger.jpg
+    slug: gregory-koberger
+  - name: Lori MacVittie
+    company: F5 Networks
+    company_url: https://f5.com/
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/lorie-macvittie.jpg
+    description: Lori MacVittie is a subject matter expert on emerging technology responsible for education and evangelism across F5s entire product suite.
+    slug: lori-macvittie
+    twitter: https://twitter.com/lmacvittie
+  - name: Ashley Hathaway
+    company: IBM Watson Group
+    company_url: http://www.ibm.com/smarterplanet/us/en/ibmwatson/
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/ashley-hathway.jpeg
+    description: As part of a strong team she helps to prioritize, drive requirements, and realize the vision of a successful product for the IBM Watson Developer Cloud in Austin, Texas.
+    slug: ashley-hathaway
+    twitter: https://twitter.com/ash_hathaway
+  - name: Elliot Turner
+    company: Chief Executive Officer of AlchemyAPI
+    company_url: http://alchemyapi.com
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/elliot-turner.png
+    description: Elliot Turner is the director of Alchemy Solutions at IBM Watson, formerly the founder and Chief Executive Officer of AlchemyAPI (acquired into Watson in early 2015). A serial software entrepreneur focused on solving the toughest data problems, Elliot started AlchemyAPI to give organizations access to deep learning capabilities that enable real-time analysis to derive true meaning from data.
+    slug: elliot-turner
+    twitter: https://twitter.com/eturner303
+  - name: John Sheehan
+    company: Runscope
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-sheehan.jpeg
+    slug: john-sheehan
+  - name: Steve Marx
+    company: Dropbox
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-marx.jpg
+    slug: steve-marx
+  - name: Dion Hinchcliffe
+    company: 7Summits
+    company_url: http://www.7summitsinc.com/
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/dion_hinchcliffe-headshot.jpg
+    description: Chief Strategy Officer, business strategist, enterprise architect, keynote speaker, author, & futurist.
+    slug: /speakers/dion-hinchcliffe/
+    twitter: https://twitter.com/dhinchcliffe
+  - name: Mark Geene
+    company: Cloud Elements
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-geene.jpg
+    slug: mark-geene
+  - name: Paul Katsen
+    company: Blockspring
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-katsen-blockspring.jpg
+    slug: mark-geene
+  - name: Todd Sundsted
+    company: SumAll
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/todd-sundsted.jpg
+    slug: todd-sundsted
+  - name: Steve Willmott
+    company: 3Scale
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-willmott.png
+    slug: steve-wilmott
+  - name: Sandeep Dinesh
+    company: Google
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/sandeep-dinesh.jpg
+    slug: sandeep-dinesh
+  - name: Orlando Kalossakas
+    company: Evangelist
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/orlando-kalossakas.jpg
+    slug: orlando-kalossakas
+  - name: Rick Copeland
+    company: Synapp.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/rick-copeland.png
+    slug: orlando-kalossakas
+  - name: Manfred Bortenschlager
+    company: 3Scale
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/manfred-bortenschlager.jpg
+    slug: manfred-bortenschlager
+  - name: Tyler Singletary
+    company: Klout
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/tyler-singletary.jpg
+    slug: tyler-singletary
+  - name: Paul O'Fallon
+    company: Cox Automotive
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-ofallon.jpg
+    slug: steve-wilmott
+  - name: Justin Karneges
+    company: Fanout.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/justin-karneges.jpeg
+    slug: justin-karneges
+  - name: Kin Lane
+    company: API Evangelist
+    image: https://s3.amazonaws.com/kinlane-productions/kin-lane/kin-lane-square.jpg
+    slug: kin-lane
+  - name: Reza Naghibi
+    company: Varnish Software
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/reza-naghibi.jpg
+    slug: reza-naghibi
+  - name: Nicolas Grenié
+    company: 3Scale
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/nicolas-grenie.jpg
+    slug: nicolas-grenie
+  - name: Jim Laredo
+    company: IBM
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jim-laredo.jpg
+    slug: jim-laredo
+  - name: Jérôme Louvel
+    company: Restlet
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jerome-louvel.jpg
+    slug: jerome-louvel
+  - name: Leah Bannon
+    company: Tech Lady Hackathons
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/leah-bannon-18f.jpg
+    slug: leah-bannon
+  - name: John Musser
+    company: API Science
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-musser.jpg
+    slug: john-musser
+  - name: Laura (Olson) Heritage
+    company: Akana
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/laura-heritage.jpg
+    slug: laura-heritage
+  - name: Mark Boyd
+    company: Conference Chair
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/mark-boyd.png
+    slug: mark-boyd
+  - name: Vivek Gupta
+    company: AnyPresence
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/vivek-gupta.jpeg
+    slug: vivek-gupta
+  - name: Jeanine Swatton
+    company: YODLEE Interactive
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jeanine-swatton.png
+    slug: jeanine-swatton
+  - name: Teresa Tung
+    company: Accenture
+    company_url: https://www.accenture.com
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/teresa-tung.jpg
+    description:
+    slug: teresa-tung
+    twitter:
+  - name: Ivan Dwyer
+    company: Iron.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/ivan-dwyer.jpg
+    slug: ivan-dwyer
+  - name: Noam Schwartz
+    company: SimilarWeb
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/noam-schwartz.jpg
+    slug: noam-schwartz
+  - name: Darrel Miller
+    company: Microsoft
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/darrel-miller.jpg
+    slug: darrel-miller
+  - name: Jennifer Rondeau
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/jennifer-rondeau.jpg
+    slug: jennifer-rondeau
+  - name: Michael Coté
+    company: Pivotal Software
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/michael-cote.jpg
+    slug: michael-cote
+  - name: Robert Read
+    company: Public Invention For All Humanity
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/robert-read.png
+    slug: robert-read
+  - name: Paul Murphy
+    company: Clarify
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-murphy.jpg
+    slug: paul-murphy
+  - name: Ryan Choi
+    company: Twitter
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/ryan-choi.png
+    slug: ryan-choi
+  - name: Tony Blank
+    company: SendGrid
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/tony-blank.png
+    slug: tony-blank
+  - name: John Burry
+    company: Amazon
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/john-burry.png
+    slug: john-burry
+  - name: Carlo Longino
+    company: WIP
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/carlo-longino.jpg
+    slug: carlo-longino
+  - name: Dave Goldberg
+    company: Capital One
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/dave-goldberg.png
+    slug: dave-goldberg
+  - name: Gary Wetzel
+    company: ​Form.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/gary-wetzel.jpg
+    slug: gary-wetzel
+  - name: David Zack
+    company: Oxford University Press
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/david-zack.jpg
+    slug: david-zack
+  - name: Victor Delgado
+    company: 3Scale
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/victor-delgado.png
+    slug: victor-delgado
+  - name: Max Katz
+    company: Appery.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/max-katz.jpg
+    slug: max-katz
+  - name: Travis Tidwell
+    company: Form.io <br /> (Deployment)
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/travis-tidwell.jpg
+    slug: travis-tidwell
+  - name: Victor Olex
+    company: SlashDB
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/victor-olex.png
+    slug: victor-olex
+  - name: Shion Deysarkar
+    company: Datafiniti <br />(Session Chair)
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/shion-deysarkar.png
+    slug: shion-deysarkar
+  - name: Paul Bruce
+    company: SmartBear Software
+    url: http://smartbear.com/
+    twitter: paulsbruce
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-bruce.jpg
+    slug: paul-bruce
+    detail: paul-bruce-test-and-other-4-letter-words-in-devops.html
+    title: API Strategy - The Next Generation
+    abstract: APIs. You build them, test them, ship them, and monitor them. Big whoop. You even have an “API strategy”, but do you know what your real long-term strategy is? Who will be maintaining these systems long-term, years into the future. If you answer “who cares?” then this session is not for you.<br /><br />This session will focus on building teams, people, and minds that can shape our future API strategy such that testing and monitoring becomes less about finding bugs and more about shipping what people actually want in the first place. Disclaimer, there will be no product demos or complicated charts in this talk. We will have a booth for that sort of thing when you’re not at an awesome conference.
+    bio: Paul Bruce is a professional nerd. A programmer at 13, of course he loves to code, but really enjoys real conversations with real people about stuff that really matters. Paul currently serves as an API Product Manager at SmartBear, focusing on technical relations and communication. You can read more at <a href="http://paulsbruce.io/blog" target="_blank">paulsbruce.io/blog</a>.
+  - name: Andrew Noonan
+    company: Uber
+    url: https://www.uber.com/
+    twitter: noonisms
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/andrew-noonan.png
+    slug: andrew-noonan
+    detail: none
+    title: none
+    abstract: none
+    bio: Andrew Noonan is a Developer Advocate and Partner Engineer on the Uber Developer Platform. As part of the recently formed developer relations team he is helping to shape how developers will tap into Uber to build moving experiences. Prior to joining the team at Uber Andrew spent time at Asana, Twitter, and Gnip in similar capacities.
+  - name: Audrey Watters
+    company: Hack Education
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/audrey-watters.jpg
+    slug: audrey-watters
+  - name: Paul Burt
+    company: Iron.io
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/paul-burt.jpg
+    slug: paul-burt
+  - name: Marc MacLeod
+    company: StopLight
+    url: http://stoplight.io
+    twitter: marbemac
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/marc-macleod.jpg
+    slug: marc-macleod
+  - name: Steven Fonseca
+    company: Intuit
+    image: https://s3.amazonaws.com/kinlane-productions/events/apistrat-austin/speakers/steve-fonseca.jpg
+    slug: steven-fonseca
