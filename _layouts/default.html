@@ -23,12 +23,12 @@
       <div class="collapse navbar-collapse text-fit" id="tyler-navigation">
         <div class="menu-menu-1-container">
           <ul id="menu-primary" class="transition">
-            <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-61"><a href="http://apistratdev.apistrat.com/">Home</a></li>
-            <li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75"><a href="http://apistratdev.apistrat.com/category/blog">Blog</a></li>
-            <li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="https://speakerdeck.com/apistrat">Slides</a></li>
-            <li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="https://www.youtube.com/user/apistrat/videos">Videos</a></li>
-            <li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="https://www.flickr.com/photos/95142376@N05/sets/">Photos</a></li>
-            <li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-228"><a href="http://apistratdev.apistrat.com/all-events/">Past Events</a>
+            <li id="menu-item-61" class="menu-item{% if page.title == 'API Strategy and Practice' %} current-menu-item{% endif %}"><a href="http://apistratdev.apistrat.com/">Home</a></li>
+            <li id="menu-item-75" class="menu-item{% if page.title == 'API Strategy and Practice - Blog' %} current-menu-item{% endif %}"><a href="http://apistratdev.apistrat.com/category/blog">Blog</a></li>
+            <li id="menu-item-80" class="menu-item{% if page.title == 'API Strategy and Practice' %} current-menu-item{% endif %}"><a href="https://speakerdeck.com/apistrat">Slides</a></li>
+            <li id="menu-item-81" class="menu-item{% if page.title == 'API Strategy and Practice' %} current-menu-item{% endif %}"><a href="https://www.youtube.com/user/apistrat/videos">Videos</a></li>
+            <li id="menu-item-82" class="menu-item{% if page.title == 'API Strategy and Practice' %} current-menu-item{% endif %}"><a href="https://www.flickr.com/photos/95142376@N05/sets/">Photos</a></li>
+            <li id="menu-item-228" class="menu-item{% if page.title == 'API Strategy and Practice - Past Events' %} current-menu-item{% endif %}"><a href="http://apistratdev.apistrat.com/all-events/">Past Events</a>
               <ul class="sub-menu">
                 <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="http://austin2015.apistrat.com">Austin 2015</a></li>
                 <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232"><a href="http://apidaysberlin2015.apistrat.com/">Berlin 2015</a></li>
@@ -38,7 +38,7 @@
                 <li id="menu-item-229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-229"><a href="http://newyork2013.apistrat.com">New York 2013</a></li>
               </ul>
             </li>
-            <li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://apistratdev.apistrat.com/contact/">Contact</a></li>
+            <li id="menu-item-86" class="menu-item{% if page.title == 'API Strategy and Practice - Contact' %} current-menu-item{% endif %}"><a href="http://apistratdev.apistrat.com/contact/">Contact</a></li>
           </ul>
         </div>
       </div>
