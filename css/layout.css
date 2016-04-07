@@ -668,13 +668,13 @@ h2 + .btn-header {
 }
 .landing h1 {
     display: block;
-    font-size: 30px; font-weight: 150;
+    font-size: 30px;
     line-height: 1;
     letter-spacing: 0;
     text-transform: uppercase;
-    padding: 89px 0 0 15px;
+    padding: 45px 0 0 15px;
     margin: 0 0 0 15px;
-    height: 215px;
+    height: 150px;
 }
 .landing h1 > span {
     display: block;
