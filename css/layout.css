@@ -135,6 +135,7 @@ h3.sponsor {
     text-transform: uppercase;
     margin: 0.5em 0 1em;
     color: #e73955;
+    text-align: left;
 }
 h3.sponsor span {
     position: relative;
@@ -215,7 +216,7 @@ img {
 
 /* widget */
 .widget {
-    margin-bottom: 2.5em;
+    /*margin-bottom: 2.5em; - Kin */
 }
 
 /* tabs */
@@ -295,7 +296,7 @@ header #logo {
     z-index: 50;
 }
 header #logo img {
-    max-width: 100%; max-height: 60px;
+    max-width: 100%;
 }
 header #menu-primary {
     margin-top: 101px;
@@ -671,18 +672,19 @@ h2 + .btn-header {
     line-height: 1;
     letter-spacing: 0;
     text-transform: uppercase;
-    padding: 89px 0 0;
-    margin: 0 0 20px;
-    height: 245px;
+    padding: 89px 0 0 15px;
+    margin: 0 0 0 15px;
+    height: 215px;
 }
 .landing h1 > span {
     display: block;
     max-height: 164px;
 }
 .landing .lead {
-    height: 84px;
+    height: 24px;
     text-transform: uppercase;
     font-size: 30px;
+    padding-bottom: 20px;
 }
 .landing .btn {
     margin: 22px 0 96px;
@@ -696,9 +698,9 @@ h2 + .btn-header {
 }
 .landing .box {
     border-radius: 4px;
-    height: 160px;
+    height: 150px;
     text-align: left;
-    padding: 40px 40px 40px 96px;
+    padding: 20px 40px 20px 50px;
     box-sizing: border-box;
     opacity: .92;
     background: #35aadc;
@@ -725,10 +727,12 @@ h2 + .btn-header {
     font-size: 16px; font-weight: 500;
 }
 .landing .box .title {
-    font-size: 36px; font-weight: 300;
+    font-size: 28px;
+    font-weight: 250;
+    text-align: center;
 }
 .landing .box .desc {
-    font-size: 20px; font-weight: 500;
+    font-size: 14px; font-weight: 500;
 }
 
 /*
@@ -737,8 +741,8 @@ h2 + .btn-header {
 
 /* speakers */
 .speakers {
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -25px;
+    margin-right: -25px;
     text-align: center;
 }
 .speakers.carousel {
@@ -747,7 +751,7 @@ h2 + .btn-header {
 }
 .speakers .speaker {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 25px;
     margin: 15px -1.5px;
     width: 33.33333%;
     white-space: normal;
@@ -759,7 +763,7 @@ h2 + .btn-header {
     position: relative;
     display: block;
     padding: 40px 12px 20px;
-    height: 387px;
+    height: 320px;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
@@ -798,24 +802,30 @@ h2 + .btn-header {
     box-shadow: 0px 0px 0px 2px #9d1127;
 }
 .speakers .name {
-    display: table;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 300;
     color: #fff;
-    height: 55px; width: 100%;
-    margin: 0 0 20px;
+    margin: 0 0 0 0;
+}
+
+.speakers .name a{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 0 0 0;
 }
 .speakers .name>span{
     display: table-cell;
-    max-height: 55px;
     vertical-align: middle; text-align: center;
 }
 .speaker .description {
     display: block;
     text-align: center;
     color: #393939;
-    font-size: 14px; font-weight: normal;
-    line-height: normal;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    line-height: 14px;
 }
 .speakers .speaker .view {
     display: none;
@@ -832,6 +842,9 @@ h2 + .btn-header {
     margin: 1px 0 -2px 6px;
 }
 .speakers .speaker .speaker-inner:hover {
+    color: #35aadc;
+}
+.speakers .speaker .speaker-inner:hover a {
     color: #35aadc;
 }
 .speakers .speaker.featured .speaker-inner:hover {
@@ -1097,26 +1110,29 @@ h2 + .btn-header {
 .sessions.list .session .speaker {
     display: block;
     float: left;
-    height: 54px; width: 20%;
-    margin: 6px 0; padding: 0 16px 0 1px;
+    height: 75px;
+    width: 33%;
+    margin: 6px 0;
+    padding: 0 16px 0 1px;
     color: #242424;
     font-size: 14px; font-weight: 500;
     text-decoration: none;
 }
 .sessions.list .session .speaker img {
     float: left;
-    width: 54px;
+    width: 75px;
 }
 .sessions.list .session .speaker .name {
     display: block;
-    margin: 0 0 0 62px; padding: 0;
+    margin: 10px 0 0 80px;
+    padding: 0;
     height: 100%;
 }
 .sessions.list .session .speaker .name>span {
     display: table-cell;
     position: relative;
     vertical-align: middle;
-    height: 54px; max-height: 54px;
+    height: 75px; max-height: 54px;
 }
 .sessions.list .more {
     top: 0; right: 0; left: auto; bottom: auto;
@@ -1400,8 +1416,7 @@ h2 + .btn-header {
 }
 .articles article .post-content a {
     display: block;
-    padding: 15px 21px;
-    height: 189px;
+    padding: 3px 3px;
     text-decoration: none;
     color: inherit;
 }
