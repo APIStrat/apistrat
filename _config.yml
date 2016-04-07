@@ -1,5 +1,5 @@
-title:        APIStrat Austin 2015
-url:          http://austin2015.apistrat.com
+title:        API Strategy and Practice Boston
+url:          http://apistrat.com
 version:      1.1.1
 author:
   name:       'Kin Lane'
@@ -14,9 +14,9 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 50
 paginate_path: "/blog/page:num"
 
-production_url : http://austin2015.apistrat.com
+production_url : http://apistrat.com
 
-BASE_PATH : http://austin2015.apistrat.com
+BASE_PATH : http://apistrat.com
 
 categories_path : /categories.html
 tags_path : /tags.html
