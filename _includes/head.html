@@ -2,64 +2,24 @@
 <html lang="en-US">
   <head>
       <meta charset="UTF-8" />
+
+      <title>API Strategy & Practice Conference</title>
+
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-      <link rel='stylesheet' id='cntctfrm_stylesheet-css'  href='/wp-content/plugins/contact-form-plugin/css/style.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='cntctfrm_stylesheet-css'  href='/css/style.css' type='text/css' media='all' />
       <link rel='stylesheet' id='tyler-google-font-css'  href='//fonts.googleapis.com/css?family=Ubuntu%3A300%2C400%2C500%2C700&#038;ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='tyler-bootstrap-css'  href='/wp-content/themes/Tyler/css/bootstrap.min.css?ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='tyler-blueimp-gallery-css'  href='/wp-content/themes/Tyler/css/blueimp-gallery.min.css?ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='tyler-jquery-scrollpane-css'  href='/wp-content/themes/Tyler/css/jquery.scrollpane.css?ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='tyler-icons-css'  href='/wp-content/themes/Tyler/css/icon.css?ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='tyler-layout-css'  href='/wp-content/themes/Tyler/css/layout.css?ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='tyler-layout-mobile-css'  href='/wp-content/themes/Tyler/css/layout-mobile.css?ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='tyler-custom-style-css'  href='/wp-content/themes/Tyler/style.css?ver=4.0' type='text/css' media='all' />
-      <link rel='stylesheet' id='san-diego-scheme-css'  href='/wp-content/themes/Tyler/css/schemes/san-diego/layout.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='tyler-bootstrap-css'  href='/css/bootstrap.min.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='tyler-blueimp-gallery-css'  href='/css/blueimp-gallery.min.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='tyler-jquery-scrollpane-css'  href='/css/jquery.scrollpane.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='tyler-icons-css'  href='/css/icon.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='tyler-layout-css'  href='/css/layout.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='tyler-layout-mobile-css'  href='/css/layout-mobile.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='tyler-custom-style-css'  href='/style.css?ver=4.0' type='text/css' media='all' />
+      <link rel='stylesheet' id='san-diego-scheme-css'  href='/css/schemes/san-diego/layout.css?ver=4.0' type='text/css' media='all' />
+
       <script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
       <script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
-      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" />
-      <meta name="generator" content="WordPress 4.0" />
 
       <link rel="icon" type="image/png" href="apistrat-favicon.png">
-
-      <script type="text/javascript">
-
-      	var ajaxurl = '/wp-admin/admin-ajax.php';
-      	var pois = [{"poi_address":"<strong>Berlin Cathedral<\/strong><br\/>Am Lustgarten, 10178 Berlin, Germany","poi_latitude":"52.5191213","poi_longitude":"13.4001665","poi_title":"Berlin Cathedral"},{"poi_address":"<strong>German Museum of Technology<\/strong><br\/>Trebbiner Stra\u00dfe 9, 10963 Berlin, Germany","poi_latitude":"52.4986278","poi_longitude":"13.3768443","poi_title":"German Museum of Technology"},{"poi_address":"<strong>Charlottenburg Palace<\/strong><br\/>Spandauer Damm 20-24, 14059 Berlin, Germany","poi_latitude":"52.5209103","poi_longitude":"13.2952329","poi_title":"Charlottenburg Palace"},{"poi_address":"<strong>Reichstag Building<\/strong><br\/>Platz der Republik 1, 11011 Berlin, Germany","poi_latitude":"52.5189368","poi_longitude":"13.3755112","poi_title":"Reichstag Building"},{"poi_address":"<strong>Berlin Wall Memorial<\/strong><br\/>Bernauer Stra\u00dfe 111 13355 Berlin","poi_latitude":"52.53523","poi_longitude":"13.38943","poi_title":"Berlin Wall Memorial"},{"poi_address":"<strong>Checkpoint Charlie<\/strong><br\/>Friedrichstra\u00dfe 43-45, 10117 Berlin, Germany","poi_latitude":"52.507132","poi_longitude":"13.391175","poi_title":"Checkpoint Charlie"},{"poi_address":"<strong>Potsdamer Platz<\/strong><br\/>Potsdamer Platz, 10785 Berlin, Germany","poi_latitude":"52.5093519","poi_longitude":"13.3757392","poi_title":"Potsdamer Platz"},{"poi_address":"<strong>Brandenburg Gate<\/strong><br\/>Pariser Platz, 10117 Berlin, Germany","poi_latitude":"52.5160749","poi_longitude":"13.3783013","poi_title":"Brandenburg Gate"},{"poi_address":"<strong>Alexanderplatz<\/strong><br\/>Alexanderplatz 10178 Berlin Germany","poi_latitude":"52.5219184","poi_longitude":"13.4132147","poi_title":"Alexanderplatz"},{"poi_address":"<strong>Humboldt Carr\u00e9 Konferenz<\/strong><br\/>Behrenstra\u00dfe 42, 10117 Berlin, Germany","poi_latitude":"52.51596","poi_longitude":"13.39115","poi_title":"Humboldt Carr\u00e9 Konferenz"}];
-      	var poi_marker = '/wp-content/themes/Tyler/images/schemes/san-diego/icon-map-pointer.png';
-      	var contact_missingfield_error = "Sorry! You've entered an invalid email.";
-      	var contact_wrongemail_error = "This field must be filled out.";
-      </script>
-
-      <style type="text/css"></style>        <!--[if IE]>
-      <meta name="X-UA-Compatible" content="IE=edge" >
-      <![endif]-->
-      <title> APIDays Berlin and APIStrat Europe 2015</title>
-      <!--[if lte IE 8]>
-      <link rel="stylesheet" href="/wp-content/themes/Tyler/css/ie8.css" />
-      <![endif]-->
-      <!--[if lte IE 7]>
-      <link rel="stylesheet" href="/wp-content/themes/Tyler/css/bootstrap-ie7.css" />
-      <style type="text/css">
-          .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.input-group,.row,.content{
-              box-sizing:border-box;behavior:url(/wp-content/themes/Tyler/js/boxsizing.htc)
-          }
-      </style>
-      <link rel="stylesheet" href="/wp-content/themes/Tyler/css/ie7.css" />
-      <![endif]-->
-      <!-- HTML5 Shim, Respond.js and PIE.htc IE8 support of HTML5 elements, media queries and CSS3 -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-      <style type="text/css">
-          .speakers .speaker .speaker-inner, .speakers .photo img, .connect, .sessions .session .speaker img,
-          .connect .links a:hover:before, .sessions .session .session-inner, .location .explore, .location .map,
-          .articles article .image, .facebook .fb-event, .facebook .fb-view, .twitter .view, .twitter .tweet,
-          .sidebar .widget_latest_comments li a,.sidebar h2, .articles article .image, .comments-area h2,
-          .commentlist .comment .comment-content,.commentlist .comment .comment-content:after,
-          .timecounter, input[type=text], textarea, .landing .box, h1 img.img-circle {
-             behavior: url(/wp-content/themes/Tyler/js/pie/PIE.htc);
-          }
-      </style>
-      <![endif]-->
 
   </head>
