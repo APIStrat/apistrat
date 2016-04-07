@@ -662,7 +662,7 @@ h2 + .btn-header {
     color: #fff;
     background: transparent;
     border-radius: 0;
-    height: 752px;
+    height: 500px;
     font-size: 30px;
 }
 .landing h1 {
@@ -1828,7 +1828,7 @@ footer .credits {
 footer .ef_footer_text_columns h1,
 footer .ef_footer_text_columns h2,
 footer .ef_footer_text_columns h3 {
-	color: #f1f1f1;	
+	color: #f1f1f1;
 }
 
 /*
