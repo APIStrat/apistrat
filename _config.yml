@@ -4,10 +4,10 @@ version:      1.1.1
 author:
   name:       'Kin Lane'
   email:      'info@apievangelist.com'
-markdown:     rdiscount
+markdown:     kramdown
 permalink:    pretty
 pygments:     true
-highlighter: rouge
+highlighter:  rouge
 
 permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
