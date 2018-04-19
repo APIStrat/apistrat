@@ -52,68 +52,14 @@ title: API Strategy and Practice
     </div>
 </div>
 
-<!-- LATEST NEWS -->
-<div class="container widget">
-
-    <h2>Latest APIStrat News</h2><a class=
-    "btn btn-primary btn-header pull-right hidden-xs" href=
-    "/blog/">View all news</a>
-    <h3></h3>
-    <div class="articles carousel slide" data-interval="false" data-ride=
-    "carousel" id="articles-carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li class="active" data-slide-to="0" data-target=
-            "#articles-carousel"></li>
-            <li data-slide-to="1" data-target="#articles-carousel"></li>
-            <li data-slide-to="2" data-target="#articles-carousel"></li>
-        </ol><!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-
-              {% for post in site.posts limit:3 %}
-     	        <article>
-     	           <div class="image">
-     	              <a href="{{ post.url }}" class="text-fit">
-                       <span class="date">
-         		            <span class="month">{{ post.date | date:"%m" }}</span>
-         		            <span class="day">{{ post.date | date:"%d" }}</span>
-         		            <span class="year">{{ post.date | date:"%Y" }}</span>
-         			      	</span>
-       	              <img width="238" height="236" src="{{ post.image }}" class="attachment-tyler-blog-home wp-post-image" alt="{{ post.title }}" />	                       </a>
-     	            </div>
-     	            <div class="post-content">
-     	               <a href="{{ post.url }}" class="text-fit">
-     	                  <strong class="heading">{{ post.title }}</strong>
-     	                  <span class="perex">
-                           {{ post.content | split:'<!--break-->' |  first | strip_html  }}
-           						    {% if post.content contains '<!--break-->' %}
-           						       <a href="{{ post.url }}">read more >></a>
-           						    {% endif %}
-                         </span>
-     	                </a>
-     	            </div>
-     	          </article>
-                 {% endfor %}
-
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="container widget" id="tile_connect">
     <div class="connect">
         <div class="connect-inner">
             <span>Connect with Us</span>
             <div class="links">
-                <a href="mailto:contact@apistrat.com" title=
-                "Email"><i class="icon-envelope"></i></a> <a href=
-                "http://apistrat.com/blog.xml" target="_blank" title=
-                "Rss"><i class="icon-rss"></i></a> <a href=
+                <a href=
                 "https://twitter.com/apistrat" target="_blank" title=
-                "Twitter"><i class="icon-twitter"></i></a> <a href=
-                "https://www.flickr.com/photos/95142376@N05/" target=
-                "_blank" title="Flickr"><i class="icon-flickr"></i></a>
+                "Twitter"><i class="icon-twitter"></i></a>
             </div>
         </div>
     </div>
